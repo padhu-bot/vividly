@@ -1,7 +1,7 @@
 export const headData={
     headline:'Perfect books for your little ones.',
     subtitle:'Intoduce them to the world of imagination and nurture them with knowledge.',
-    image: 'images/child.svg',
+    image: 'vividly/images/child.svg',
     alt:'bestseller',
     buttontext:'Explore',
     btnlink:'/bestsellers'

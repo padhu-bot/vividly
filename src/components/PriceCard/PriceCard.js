@@ -9,6 +9,7 @@ import {
     PricingCardImage,
     Button
 } from './PriceCard.elements';
+
 const PriceCard = ({book1,book2,book3,heading,isheading}) => {
     return (   
         <PricingSection>
@@ -17,19 +18,19 @@ const PriceCard = ({book1,book2,book3,heading,isheading}) => {
           <PricingContainer>
             <PricingCard to={{pathname:'/viewbook',state:{product:book1[0]}}}>
               <PricingCardInfo>
-                <PricingCardImage src={'../../images/book'+book1[0].id+'.webp'} alt="book1"/>
+                <PricingCardImage src={'/vividly/images/book'+book1[0].id+'.webp'} alt="book1"/>
                <Button to={{pathname:'/viewbook',state:{product:book1[0]}}}>Personalize </Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to={{pathname:'/viewbook',state:{product:book2[0]}}}>
               <PricingCardInfo>
-                <PricingCardImage src={'../../images/book'+book2[0].id+'.webp'} alt="book2"/>
+                <PricingCardImage src={'/vividly/images/book'+book2[0].id+'.webp'} alt="book2"/>
                 <Button>Personalize </Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to={{pathname:'/viewbook',state:{product:book3[0]}}}>
               <PricingCardInfo>
-                <PricingCardImage src={'../../images/book'+book3[0].id+'.webp'} alt="book3"/>
+                <PricingCardImage src={'/vividly/images/book'+book3[0].id+'.webp'} alt="book3"/>
                  <Button>Personalize</Button>
               </PricingCardInfo>
             </PricingCard>            

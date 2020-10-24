@@ -37,11 +37,11 @@ const View= (props) => {
                        <InfoColumn>
                             <ImgWrapper>
                                   <Thumb>
-                                      <li><a onClick={() => setNum(prevState => ({...prevState, imgNum: book.id }))}><Img src={"images/book"+book.id+".webp"}></Img></a></li>
-                                      <li><a onClick={() => setNum(prevState => ({...prevState, imgNum: book.id+'b' }))}><Img src={"images/book"+book.id+"b.webp"}></Img></a></li>
-                                      <li><a onClick={() => setNum(prevState => ({...prevState, imgNum: book.id+'c' }))}><Img src={"images/book"+book.id+"c.webp"}></Img></a></li>
+                                      <li><a onClick={() => setNum(prevState => ({...prevState, imgNum: book.id }))}><Img src={"vividly/images/book"+book.id+".webp"}></Img></a></li>
+                                      <li><a onClick={() => setNum(prevState => ({...prevState, imgNum: book.id+'b' }))}><Img src={"vividly/images/book"+book.id+"b.webp"}></Img></a></li>
+                                      <li><a onClick={() => setNum(prevState => ({...prevState, imgNum: book.id+'c' }))}><Img src={"vividly/images/book"+book.id+"c.webp"}></Img></a></li>
                                   </Thumb>  
-                                  <Imgbox src={"images/book"+imgArr.imgNum+".webp"} id="imgbox"></Imgbox>
+                                  <Imgbox src={"vividly/images/book"+imgArr.imgNum+".webp"} id="imgbox"></Imgbox>
                             </ImgWrapper>                          
                        </InfoColumn>                       
                        <InfoColumn>

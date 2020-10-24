@@ -1,7 +1,7 @@
 export const headData={
     headline:"Don't limit yourself.",
     subtitle:'Spread the love and enjoy every day reading great books.',
-    image: 'images/team.svg',
+    image: 'vividly/images/team.svg',
     alt:'bestseller',
     buttontext:'Explore',
     btnlink:'/bestsellers'

@@ -1,7 +1,7 @@
 export const homeData={
     headline:"Your Stories. Your Memories.",
     subtitle:"Be the Hero of your story!",
-    image: 'images/firstPg.svg',
+    image: 'vividly/images/firstPg.svg',
     alt:'Girl with books',
     buttontext:'Explore',
     btnlink:'/bestsellers'
@@ -37,9 +37,9 @@ export const bodyData={
         rate:'Rs.1500',
         brief:"Take your child on an educative tour around their surronding through this book.Learn interesting facts about the trees around us and some unique trees around the world. You also get to meet the eco warriors who are saving trees!"
     }],
-    step1:'images/step1.svg',    
-    step2:'images/step2.svg',
-    step3:'images/step3.svg',
+    step1:'vividly/images/step1.svg',    
+    step2:'vividly/images/step2.svg',
+    step3:'vividly/images/step3.svg',
 }
 
 export let productData={

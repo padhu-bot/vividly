@@ -1,7 +1,7 @@
 export const headData={
     headline:'Our Bestselling Books',
     subtitle:'Choose the best book and enjoy your read.',
-    image: 'images/page2.svg',
+    image: 'vividly/images/page2.svg',
     alt:'bestseller',
     buttontext:'Explore',
     btnlink:'/childrenbook'
@@ -9,7 +9,7 @@ export const headData={
 export const subData={
     headline:'Want to have a look at other books?',
     subtitle:'',
-    image: 'images/allbook.svg',
+    image: 'vividly/images/allbook.svg',
     alt:'bestseller',
     buttontext:'View all'
 }

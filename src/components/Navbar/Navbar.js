@@ -11,7 +11,7 @@ const Navbar = () => {
         <div>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>
+                    <NavLogo to='vividly/'>
                         Vividly Written
                     </NavLogo>
                     <MobileIcon onClick={handleClick}>
@@ -19,7 +19,7 @@ const Navbar = () => {
                     </MobileIcon>
                     <NavMenu onClick={handleClick} click={click}>
                         <NavItem>
-                            <NavLinks to='/'>
+                            <NavLinks to='vividly/'>
                                 Our Works
                             </NavLinks>
                         </NavItem>

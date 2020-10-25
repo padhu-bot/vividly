@@ -13,7 +13,7 @@ export const bodyData={
     book1:[{
         id:1,
         name:'Ayaan',
-        title:'Ayaan goes to Munnar',
+        title:' goes to Munnar',
         rate:'Rs.1500',
         gender:'Male',
         friend:'',
@@ -21,7 +21,7 @@ export const bodyData={
     }],
     book2:[{
         id:2,
-        name:'Chili',
+        name:'',
         title:"Grandma goes to school",
         rate:'Rs.1500',
         gender:'Female',
@@ -30,7 +30,7 @@ export const bodyData={
     }],
     book3:[{
         id:3,
-        name:'Chili',
+        name:'',
         title:"Little children's natural walk",
         gender:'Male',
         friend:'',

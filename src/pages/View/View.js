@@ -47,7 +47,8 @@ const View= (props) => {
                        <InfoColumn>
                            <TextWrapper>
                                <h2>Preview</h2>
-                                <Title>{book.title}</Title>
+                                <Title>{book.name}{book.title}</Title>
+                                <Content>Main character : <b>{book.name}</b></Content>
                                 <Content>{book.brief}</Content>
                                 <Feature>Full Color Illustrations</Feature>
                                 <Feature>Premium Paper</Feature>

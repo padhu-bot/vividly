@@ -18,7 +18,7 @@ export const bodyData1={
     book1:[{
         id:1,
         name:'Ayaan',
-        title:'Ayaan goes to Munnar',
+        title:' goes to Munnar',
         gender:'Male',
         friend:'',
         rate:'Rs.1500',
@@ -49,14 +49,14 @@ export const bodyData2={
     book1:[{
         id:6,
         name:'Samrutha',
-        title:"Samrutha's friends",
+        title:"'s friends",
         rate:'Rs.1500',
         gender:'Male',
         friend:'',
         brief:"Kiki the octopus and Pamo are best friends.One day,on their adventures they meet a little girl and a guitar! This leads them to an amazing adventure and a lot of new friends"}],
     book2:[{
         id:5,
-        name:'Anika',
+        name:'',
         title:"Princess Anika's Alicorn",
         rate:'Rs.1500',
         gender:'Male',

@@ -12,7 +12,7 @@ export const bodyData1={
     book1:[{
         id:11,
         name:'Aditya',
-        title:"Aditya's whale adventre",
+        title:"'s whale adventre",
         rate:'Rs.1500',
         gender:'Male',
         friend:'',
@@ -20,7 +20,7 @@ export const bodyData1={
     }],
     book2:[{
         id:2,
-        name:'grany',
+        name:'',
         title:"Grandma goes to school",
         rate:'Rs.1500',
         gender:'Male',
@@ -30,7 +30,7 @@ export const bodyData1={
     book3:[{
         id:13,
         name:'Nathania',
-        title:"Nathania",
+        title:"",
         rate:'Rs.1500',
         gender:'Male',
         friend:'',
@@ -41,8 +41,8 @@ export const bodyData2={
     heading:'',
     book1:[{
         id:9,
-        name:'',
-        title:'Junyuh and his car',
+        name:'Junyuh',
+        title:' and his car',
         rate:'Rs.1500',
         gender:'Male',
         friend:'',
@@ -50,8 +50,8 @@ export const bodyData2={
     }],
     book2:[{
         id:12,
-        name:'',
-        title:"Madhu, Jai and Avi's Magic Swing",
+        name:'Madhu, Jai and Avi',
+        title:"'s Magic Swing",
         rate:'Rs.1500',
         gender:'Male',
         friend:'',
@@ -72,7 +72,7 @@ export const bodyData3={
     book1:[{
         id:1,
         name:'Ayaan',
-        title:'Ayaan goes to Munnar',
+        title:' goes to Munnar',
         rate:'Rs.1500',
         gender:'Male',
         friend:'',
@@ -80,7 +80,7 @@ export const bodyData3={
     }],
     book2:[{
         id:5,
-        name:'Anika',
+        name:'',
         title:"Princess Anika's Alicorn",
         rate:'Rs.1500',
         gender:'Male',
@@ -103,7 +103,7 @@ export const bodyData4={
     book1:[{
         id:6,
         name:'Samrutha',
-        title:"Samrutha's friends",
+        title:"'s friends",
         rate:'Rs.1500',
         gender:'Male',
         friend:'',

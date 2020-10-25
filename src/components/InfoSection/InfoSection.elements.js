@@ -50,10 +50,10 @@ font-weight: 500;
 export const Subtitle=styled.p`
 max-width:440px;
 margin-bottom:50px;
-font-size:1rem;
+font-size:1.5rem;
 line-height:24px;
-font-family: 'Quicksand', sans-serif;
-font-weight: 300;
+font-family: 'Open Sans', sans-serif;
+font-weight: 200;
 `;
 
 export const Button=styled.button`

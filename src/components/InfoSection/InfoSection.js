@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container} from '../../GlobalStyles'
+import {Link} from 'react-router-dom'
 import {
     InfoSec,
     InfoRow,
@@ -22,7 +23,7 @@ const InfoSection = ({headline,subtitle,alt,image,buttontext,btnlink}) => {
                            <TextWrapper>
                                 <Heading >{headline}</Heading>
                                 <Subtitle>{subtitle}</Subtitle>
-                                <a href={btnlink}><Button>{buttontext}</Button></a>
+                                <Link to={btnlink}><Button>{buttontext}</Button></Link>
                            </TextWrapper>
                        </InfoColumn>
                        <InfoColumn>

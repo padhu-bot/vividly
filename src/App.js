@@ -23,7 +23,6 @@ function App() {
       <GlobalStyle />
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Home}></Route>
         <Route path='/vividly' exact component={Home}></Route>
         <Route path='/bestsellers' exact component={Bestsellers}></Route>
         <Route path='/childrenbook' exact component={BooksbyAge}></Route> 

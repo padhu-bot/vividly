@@ -26,7 +26,7 @@ const Footer = () => {
                         <FooterLink to='/bestsellers'>Bestsellers</FooterLink>
                         <FooterLink to='/childrenbook'>Chilren books</FooterLink>
                         <FooterLink to='/adultSection'>Adult section</FooterLink>
-                        <FooterLink to='/'>Personalize Book</FooterLink>
+                        <FooterLink to='/vividly'>Personalize Book</FooterLink>
                         <FooterLink to='/corporate'>Corporate</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>

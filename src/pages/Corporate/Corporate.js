@@ -20,8 +20,8 @@ const Corporate = () => {
             <InfoSection {...headData}/>
             <Head>Our clients</Head>
             <Imgbox>
-            <Image src='images/l1.jpg'/>
-            <Image src='images/l2.jpg'/>
+            <Image src='vividly/images/l1.jpg'/>
+            <Image src='vividly/images/l2.jpg'/>
             </Imgbox>
             <TestimonialSection>
         <TestimonialWrapper>

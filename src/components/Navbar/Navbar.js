@@ -19,7 +19,7 @@ const Navbar = () => {
                     </MobileIcon>
                     <NavMenu onClick={handleClick} click={click}>
                         <NavItem>
-                            <NavLinks to='vividly/'>
+                            <NavLinks to='/'>
                                 Our Works
                             </NavLinks>
                         </NavItem>

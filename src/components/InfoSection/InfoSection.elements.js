@@ -43,6 +43,8 @@ margin:24px 0;
 font-size:48px;
 line-height: 1.1;
 color:#fff;
+font-family: 'Quicksand', sans-serif;
+font-weight: 500;
 `;
 
 export const Subtitle=styled.p`
@@ -50,6 +52,8 @@ max-width:440px;
 margin-bottom:50px;
 font-size:1rem;
 line-height:24px;
+font-family: 'Quicksand', sans-serif;
+font-weight: 300;
 `;
 
 export const Button=styled.button`

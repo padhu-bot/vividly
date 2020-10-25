@@ -14,7 +14,8 @@ import View from './pages/View/View';
 import Success from './pages/Success/Success';
 import Cart from './pages/Cart/Cart';
 import Order from './pages/Order/Order';
-import {productData} from './pages/HomePage/Data'
+import {productData} from './pages/HomePage/Data';
+import Terms from './pages/Terms/Terms';
 
 function App() {
   return (
@@ -33,7 +34,9 @@ function App() {
         <Route path='/viewbook' exact component={View}></Route>               
         <Route path='/Success' exact component={Success}></Route>             
         <Route path='/Cart' cart={productData} exact component={Cart}></Route>                     
-        <Route path='/Order' exact component={Order}></Route>
+        <Route path='/Order' exact component={Order}></Route>                    
+        <Route path='/Terms' exact component={Terms}></Route>
+
       </Switch>
       <Footer />
     </Router>

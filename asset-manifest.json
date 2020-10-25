@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/vividly/static/js/main.05768cce.chunk.js",
-    "main.js.map": "/vividly/static/js/main.05768cce.chunk.js.map",
+    "main.js": "/vividly/static/js/main.cd2f6a6a.chunk.js",
+    "main.js.map": "/vividly/static/js/main.cd2f6a6a.chunk.js.map",
     "runtime-main.js": "/vividly/static/js/runtime-main.c670fe23.js",
     "runtime-main.js.map": "/vividly/static/js/runtime-main.c670fe23.js.map",
     "static/js/2.8bed6cab.chunk.js": "/vividly/static/js/2.8bed6cab.chunk.js",
     "static/js/2.8bed6cab.chunk.js.map": "/vividly/static/js/2.8bed6cab.chunk.js.map",
     "index.html": "/vividly/index.html",
-    "precache-manifest.99db5ad28a4de2f80a44e1ad75fd68b2.js": "/vividly/precache-manifest.99db5ad28a4de2f80a44e1ad75fd68b2.js",
+    "precache-manifest.b24e8e6acc828cebb2d5adf6a8e5a531.js": "/vividly/precache-manifest.b24e8e6acc828cebb2d5adf6a8e5a531.js",
     "service-worker.js": "/vividly/service-worker.js",
     "static/js/2.8bed6cab.chunk.js.LICENSE.txt": "/vividly/static/js/2.8bed6cab.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c670fe23.js",
     "static/js/2.8bed6cab.chunk.js",
-    "static/js/main.05768cce.chunk.js"
+    "static/js/main.cd2f6a6a.chunk.js"
   ]
 }

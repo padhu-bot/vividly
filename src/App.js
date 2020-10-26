@@ -16,11 +16,13 @@ import Cart from './pages/Cart/Cart';
 import Order from './pages/Order/Order';
 import {productData} from './pages/HomePage/Data';
 import Terms from './pages/Terms/Terms';
+import ScrollTop from './components/ScrollTop';
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
+      <ScrollTop></ScrollTop>
       <Navbar />
       <Switch>
         <Route path='/vividly' exact component={Home}></Route>

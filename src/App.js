@@ -32,11 +32,11 @@ function App() {
         <Route path='/about' exact component={About}></Route>
         <Route path='/contact' exact component={Contact}></Route>
         <Route path='/FAQ' exact component={FAQ}></Route>
-        <Route path='/corporate' exact component={Corporate}></Route>        
-        <Route path='/viewbook' exact component={View}></Route>               
+        <Route path='/corporate' exact component={Corporate}></Route>                      
         <Route path='/Success' exact component={Success}></Route>             
         <Route path='/Cart' cart={productData} exact component={Cart}></Route>                     
-        <Route path='/Order' exact component={Order}></Route>                    
+        <Route path='/Order' exact component={Order}></Route> 
+        <Route path='/viewbook' exact component={View}></Route>                    
         <Route path='/Terms' exact component={Terms}></Route>
       </Switch>
       <Footer />

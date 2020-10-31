@@ -28,6 +28,7 @@ const View= (props) => {
         book.gender=a.gender;
         book.friend=a.friend;
     }; 
+    const nameTitle=[" goes to Munnar","'s friends","'s whale adventure",""," and his car","Madhu, Jai and Avi"];
     return (        
         <div>
             {modal?<Backdrop onClick={closeModal}></Backdrop>:null}
@@ -47,7 +48,7 @@ const View= (props) => {
                        <InfoColumn>
                            <TextWrapper>
                                <h2>Preview</h2>
-                                <Title>{book.name} {book.title}</Title>
+                                <Title>{nameTitle.includes(book.title)?book.name+" "+book.title:book.title}</Title>
                                 <Content>Main character : <b>{book.name}</b></Content>
                                 <Content>{book.brief}</Content>
                                 <Feature>Full Color Illustrations</Feature>

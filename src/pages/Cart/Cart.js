@@ -28,7 +28,7 @@ const Cart = (props) => {
                  productCart.splice(i,1);
             }}><Link to={{pathname:'/cart',state:{cart:productCarts}}}><FaTrash></FaTrash></Link></CloseBtn></Close>
              <Modalhead>
-             <Bookname>{proCart.title}</Bookname>
+             <Bookname>{proCart.name} {proCart.title}</Bookname>
              <Cost>{proCart.rate}</Cost>
              </Modalhead>
              <BookType>Hardcopy</BookType>

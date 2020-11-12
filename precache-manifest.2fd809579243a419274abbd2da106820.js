@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0ec62de116d6b5c1e36d97a0902de06",
+    "revision": "b68d5c0252c4a27b3c8808986a308fcc",
     "url": "/vividly/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vividly/static/js/2.d59b319e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "126b604433812fca3c1b",
-    "url": "/vividly/static/js/main.1e6d09f5.chunk.js"
+    "revision": "dfc0fd02889d216be924",
+    "url": "/vividly/static/js/main.b2680701.chunk.js"
   },
   {
     "revision": "abe6dd651558114aeb27",

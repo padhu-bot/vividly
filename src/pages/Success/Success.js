@@ -17,7 +17,7 @@ const Success= ({show,closeModal}) => {
             </Modalhead>
             <ModalContent>
                 <ModalBody>
-                Order has been placed successfully and will reach you soon. 
+                Order has been placed successfully. Our team will soon contact you through email for payment process.  
                 </ModalBody>
                 <ModalFooter>
                 <CloseBtn onClick={closeModal}>Close</CloseBtn>

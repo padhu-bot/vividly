@@ -22,7 +22,8 @@ const Order= (props) => {
     const [state,setState]=useState('');
     const [pin,setPin]=useState('');
     const [phone,setPhone]=useState('');
-    let shipping=fname+','+lname+','+adress+','+city+','+country+','+state+',Pin:'+pin+',Ph.no:'+phone;
+    const [mail,setMail]=useState('');
+    let shipping=fname+','+lname+','+adress+','+city+','+country+','+state+',Pin:'+pin+',Ph.no:'+phone+',email:'+mail;
     return (
         <Wrap>
             <Head>Shipping Details</Head>
@@ -43,6 +44,8 @@ const Order= (props) => {
             <Input type="text" name="pin" value={pin} onChange={e=>setPin(e.target.value)} placeholder="Pin"></Input>
             <Label>Phone Number</Label>            
             <Input type="tel" name="phone" value={phone} onChange={e=>setPhone(e.target.value)} placeholder="Phone no."></Input>
+            <Label>Mail-ID</Label>            
+            <Input type="text" name="mail" value={mail} onChange={e=>setMail(e.target.value)} placeholder="email-id" required></Input>
             <br></br>
             <Button onClick={()=>{
             db.collection("book").add({book:order.myCart,adress:shipping})

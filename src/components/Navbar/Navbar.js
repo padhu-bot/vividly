@@ -44,6 +44,11 @@ const Navbar = () => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
+                            <NavLinks to='/about'>
+                                Our Story
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to={{pathname:'/cart',state:{cart:productData}}}>
                                 My Cart <FaCartPlus/>
                             </NavLinks>
